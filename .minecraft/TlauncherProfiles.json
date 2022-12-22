@@ -1,0 +1,25 @@
+{
+  "clientToken": "f4442095-adbe-4ca1-9dae-1dd0a89b2190",
+  "accounts": {
+    "5749bca3006511e8a268002590a1379b": {
+      "username": "Kratonius",
+      "userID": "Kratonius",
+      "displayName": "Kratonius",
+      "accessToken": "be7fdd3f-9c4f-4fe9-8ee0-4016b9d2df48",
+      "uuid": "5749bca3-0065-11e8-a268-002590a1379b",
+      "type": "tlauncher",
+      "premiumAccount": false,
+      "profiles": [
+        {
+          "id": "5749bca3-0065-11e8-a268-002590a1379b",
+          "name": "Kratonius"
+        }
+      ],
+      "selectedProfile": {
+        "id": "5749bca3-0065-11e8-a268-002590a1379b",
+        "name": "Kratonius"
+      }
+    }
+  },
+  "selectedAccountUUID": "5749bca3006511e8a268002590a1379b"
+}

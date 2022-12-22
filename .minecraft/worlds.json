@@ -1,0 +1,11 @@
+{
+  "worlds": [
+    {
+      "name": "Дивный мир",
+      "source": "C:\\Users\\ranku\\AppData\\Roaming\\.minecraft\\versions\\Средневековье_1.16.5\\saves\\Дивный мир",
+      "destination": "C:\\Users\\ranku\\AppData\\Roaming\\.minecraft\\backup\\saves\\modpacks_saves\\Дивный мир",
+      "lastChanged": "2022-12-22T18:57:06",
+      "backup": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "База-черных_-66-66-756",
+  "name": "База черных",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--5088720-waypoint-icon.png",
+  "x": -66,
+  "y": 66,
+  "z": -756,
+  "r": 178,
+  "g": 90,
+  "b": 48,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

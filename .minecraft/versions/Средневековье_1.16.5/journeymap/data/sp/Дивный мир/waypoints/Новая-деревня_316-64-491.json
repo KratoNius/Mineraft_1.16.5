@@ -1,0 +1,22 @@
+{
+  "id": "Новая-деревня_316-64-491",
+  "name": "Новая деревня",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--12992611-waypoint-icon.png",
+  "x": 316,
+  "y": 64,
+  "z": -491,
+  "r": 57,
+  "g": 191,
+  "b": 157,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

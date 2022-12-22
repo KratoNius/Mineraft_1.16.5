@@ -1,0 +1,15 @@
+[17:14:31][FINE/CustomNPCs][noppes.npcs.controllers.ScriptController:83] Thu Dec 22 17:14:31 MSK 2022
+[17:14:31][FINE/CustomNPCs][noppes.npcs.CustomNpcs:245] Script Engines Available:
+[17:14:31][FINE/CustomNPCs][noppes.npcs.CustomNpcs:245] ECMAScript: .js
+[17:17:33][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[17:17:33][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[17:17:53][FINE/CustomNPCs][noppes.npcs.CustomNpcs:293] Loading Dialogs
+[17:17:53][FINE/CustomNPCs][noppes.npcs.CustomNpcs:293] Done loading Dialogs
+[18:35:11][WARNING/CustomNPCs][noppes.npcs.api.wrapper.WrapperNpcAPI:69] Unable to get EntityData for CaveSpiderEntity['Пещерный паук'/25350, l='ServerLevel[Дивный мир]', x=27.35, y=66.50, z=-892.07]
+[18:35:11][WARNING/CustomNPCs][noppes.npcs.api.wrapper.WrapperNpcAPI:69] Unable to get EntityData for CaveSpiderEntity['Пещерный паук'/25350, l='ServerLevel[Дивный мир]', x=27.35, y=66.50, z=-892.07]
+[18:35:11][WARNING/CustomNPCs][noppes.npcs.api.wrapper.WrapperNpcAPI:69] Unable to get EntityData for CaveSpiderEntity['Пещерный паук'/25350, l='ServerLevel[Дивный мир]', x=27.35, y=66.50, z=-892.07]
+[18:35:12][WARNING/CustomNPCs][noppes.npcs.api.wrapper.WrapperNpcAPI:69] Unable to get EntityData for CaveSpiderEntity['Пещерный паук'/25350, l='ServerLevel[Дивный мир]', x=27.35, y=66.50, z=-892.07]
+[18:35:14][WARNING/CustomNPCs][noppes.npcs.api.wrapper.WrapperNpcAPI:69] Unable to get EntityData for CaveSpiderEntity['Пещерный паук'/25350, l='ServerLevel[Дивный мир]', x=27.35, y=66.50, z=-892.07]
+[18:35:14][WARNING/CustomNPCs][noppes.npcs.api.wrapper.WrapperNpcAPI:69] Unable to get EntityData for CaveSpiderEntity['Пещерный паук'/25350, l='ServerLevel[Дивный мир]', x=27.35, y=66.50, z=-892.07]
+[18:35:27][WARNING/CustomNPCs][noppes.npcs.api.wrapper.WrapperNpcAPI:69] Unable to get EntityData for CaveSpiderEntity['Пещерный паук'/25350, l='ServerLevel[Дивный мир]', x=27.35, y=66.50, z=-892.07]
+[18:35:27][WARNING/CustomNPCs][noppes.npcs.api.wrapper.WrapperNpcAPI:69] Unable to get EntityData for CaveSpiderEntity['Пещерный паук'/25350, l='ServerLevel[Дивный мир]', x=27.35, y=66.50, z=-892.07]

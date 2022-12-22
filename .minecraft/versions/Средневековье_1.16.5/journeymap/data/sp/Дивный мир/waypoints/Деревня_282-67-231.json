@@ -1,0 +1,22 @@
+{
+  "id": "Деревня_282-67-231",
+  "name": "Деревня",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3002657-waypoint-icon.png",
+  "x": 282,
+  "y": 67,
+  "z": 231,
+  "r": 210,
+  "g": 46,
+  "b": 223,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,192 @@
+[20:41:34.285][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[20:41:36.263][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'aquaculture' at version '1.16.5-2.1.22'
+'ars_nouveau' at version '1.25.7'
+'atum' at version '1.16.5-2.2.12'
+'bloodmagic' at version '1.16.4-3.1.13-39'
+'crafttweaker' at version '7.1.2.512'
+'farmersdelight' at version '1.16.5-0.6.0'
+'jeitweaker' at version '1.1.0.49'
+[20:41:37.853][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[20:43:40.352][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[20:43:41.096][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[20:45:52.471][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[20:45:52.576][DONE][CLIENT][INFO] Loading file: 'Stages\stages.zs' with priority: 2001
+[20:45:52.579][DONE][CLIENT][INFO] Loading file: 'MineTweakerRecipeMaker.zs' with priority: 10
+[20:45:52.579][DONE][CLIENT][INFO] Loading file: 'Stages\items.zs' with priority: 10
+[20:45:52.580][DONE][CLIENT][INFO] Loading file: 'Stages\replacements.zs' with priority: 10
+[20:45:52.580][DONE][CLIENT][INFO] Loading file: 'recipes.zs' with priority: 10
+[20:45:52.581][DONE][CLIENT][INFO] Loading file: 'recipes\AstralSorcery.zs' with priority: 10
+[20:45:52.581][DONE][CLIENT][INFO] Loading file: 'recipes\Bewitchment.zs' with priority: 10
+[20:45:52.582][DONE][CLIENT][INFO] Loading file: 'recipes\Botania.zs' with priority: 10
+[20:45:52.582][DONE][CLIENT][INFO] Loading file: 'recipes\ThaumCraft.zs' with priority: 10
+[20:45:52.583][DONE][CLIENT][INFO] Loading file: 'recipes\sheepFix.zs' with priority: 10
+[20:45:52.583][DONE][CLIENT][INFO] Loading file: 'Stages\modid.zs' with priority: 1
+[20:45:52.597][DONE][CLIENT][ERROR] Error running scripts
+org.openzen.zenscript.lexer.ParseException: Stages\modid.zs:40:13: ) expected
+	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:514)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:123)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parseBlock(ParsedStatement.java:66)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:90)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:77)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:147)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parseBlock(ParsedStatement.java:66)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parseFunctionBody(ParsedStatement.java:54)
+	at org.openzen.zenscript.parser.definitions.ParsedFunction.parseFunction(ParsedFunction.java:45)
+	at org.openzen.zenscript.parser.ParsedDefinition.parse(ParsedDefinition.java:41)
+	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:212)
+	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
+	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
+	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:219)
+	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:198)
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
+	at net.minecraft.client.resources.ReloadListener$$Lambda$36566/1135093642.accept(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
+	at net.minecraft.resources.AsyncReloader$$Lambda$36813/1479285555.run(Unknown Source)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
+	at net.minecraft.client.Minecraft.func_238189_a_(Minecraft.java:1865)
+	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1714)
+	at net.minecraft.client.Minecraft.func_238192_a_(Minecraft.java:1687)
+	at net.minecraft.client.gui.screen.CreateWorldScreen.func_195352_j(CreateWorldScreen.java:260)
+	at net.minecraft.client.gui.screen.CreateWorldScreen.lambda$init$11(CreateWorldScreen.java:205)
+	at net.minecraft.client.gui.screen.CreateWorldScreen$$Lambda$45514/452206233.onPress(Unknown Source)
+	at net.minecraft.client.gui.widget.button.Button.func_230930_b_(SourceFile:33)
+	at net.minecraft.client.gui.widget.button.AbstractButton.func_230982_a_(SourceFile:16)
+	at net.minecraft.client.gui.widget.Widget.func_231044_a_(Widget.java:136)
+	at net.minecraft.client.gui.INestedGuiEventHandler.func_231044_a_(SourceFile:27)
+	at net.minecraft.client.MouseHelper.func_198033_b(MouseHelper.java:87)
+	at net.minecraft.client.MouseHelper$$Lambda$43854/1756890367.run(Unknown Source)
+	at net.minecraft.client.gui.screen.Screen.func_231153_a_(Screen.java:427)
+	at net.minecraft.client.MouseHelper.func_198023_a(MouseHelper.java:85)
+	at net.minecraft.client.MouseHelper.func_228030_c_(MouseHelper.java:181)
+	at net.minecraft.client.MouseHelper$$Lambda$43852/1751421901.run(Unknown Source)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(SourceFile:94)
+	at net.minecraft.client.MouseHelper.func_228028_b_(MouseHelper.java:180)
+	at net.minecraft.client.MouseHelper$$Lambda$36521/1304864200.invoke(Unknown Source)
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+	at org.lwjgl.system.JNI.invokeV(Native Method)
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(SourceFile:127)
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:1000)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
+	at net.minecraft.client.main.Main.main(Main.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$497/1562533966.call(Unknown Source)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+
+[20:45:52.597][DONE][CLIENT][INFO] Finished loading Scripts!
+[20:45:52.603][DONE][CLIENT][INFO] This reload was made possible by SquidDev and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[20:47:52.961][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[20:47:53.033][DONE][CLIENT][INFO] Loading file: 'Stages\stages.zs' with priority: 2001
+[20:47:53.033][DONE][CLIENT][INFO] Loading file: 'MineTweakerRecipeMaker.zs' with priority: 10
+[20:47:53.033][DONE][CLIENT][INFO] Loading file: 'Stages\items.zs' with priority: 10
+[20:47:53.034][DONE][CLIENT][INFO] Loading file: 'Stages\replacements.zs' with priority: 10
+[20:47:53.034][DONE][CLIENT][INFO] Loading file: 'recipes.zs' with priority: 10
+[20:47:53.034][DONE][CLIENT][INFO] Loading file: 'recipes\AstralSorcery.zs' with priority: 10
+[20:47:53.036][DONE][CLIENT][INFO] Loading file: 'recipes\Bewitchment.zs' with priority: 10
+[20:47:53.036][DONE][CLIENT][INFO] Loading file: 'recipes\Botania.zs' with priority: 10
+[20:47:53.037][DONE][CLIENT][INFO] Loading file: 'recipes\ThaumCraft.zs' with priority: 10
+[20:47:53.038][DONE][CLIENT][INFO] Loading file: 'recipes\sheepFix.zs' with priority: 10
+[20:47:53.038][DONE][CLIENT][INFO] Loading file: 'Stages\modid.zs' with priority: 1
+[20:47:53.045][DONE][CLIENT][ERROR] Error running scripts
+org.openzen.zenscript.lexer.ParseException: Stages\modid.zs:40:13: ) expected
+	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:514)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:123)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parseBlock(ParsedStatement.java:66)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:90)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:77)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:147)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parseBlock(ParsedStatement.java:66)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parseFunctionBody(ParsedStatement.java:54)
+	at org.openzen.zenscript.parser.definitions.ParsedFunction.parseFunction(ParsedFunction.java:45)
+	at org.openzen.zenscript.parser.ParsedDefinition.parse(ParsedDefinition.java:41)
+	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:212)
+	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
+	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScriptsFromRecipeManager(CraftTweakerAPI.java:168)
+	at com.blamejared.crafttweaker.impl.events.CTStateEventHandler.loadScripts(CTStateEventHandler.java:36)
+	at com.blamejared.crafttweaker.impl.events.CTStateEventHandler.onRecipesUpdated(CTStateEventHandler.java:52)
+	at net.minecraftforge.eventbus.ASMEventHandler_2621_CTStateEventHandler_onRecipesUpdated_RecipesUpdatedEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus$$Lambda$3246/1691429072.invoke(Unknown Source)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:772)
+	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1315)
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27)
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15)
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+	at net.minecraft.network.PacketThreadUtil$$Lambda$50263/1827001788.run(Unknown Source)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
+	at net.minecraft.client.main.Main.main(Main.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$497/1562533966.call(Unknown Source)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+
+[20:47:53.046][DONE][CLIENT][INFO] Finished loading Scripts!
